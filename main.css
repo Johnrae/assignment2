@@ -1,7 +1,7 @@
 header {
   font-family: helvetica;
   background: lavender;
-  padding: 50px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ h3 {
   border-style: inset;
 }
 
-header img {
+.trash {
   -webkit-filter: invert(100%);
 }
 
