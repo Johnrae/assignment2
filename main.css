@@ -1,7 +1,7 @@
 header {
   font-family: helvetica;
-  color: #fff4e6;
-  background: #4b3832;
+  color: #2fd062;
+  background: #536878;
   padding: 10px;
   text-align: center;
 }
@@ -15,7 +15,7 @@ nav{
 main {
   position: center;
   text-align: center;
-  background: #fff4e6;
+  background: #e2eff0;
   padding: 10px;
   text-align: center;
   font-family: helvetica;
@@ -23,7 +23,7 @@ main {
 }
 
 footer {
-  background: #4b3832;
+  background: #536878;
   color: grey;
   padding: 30px;
   text-align: center;
@@ -34,6 +34,7 @@ span {
   font-style: italic;
   text-align: center;
   border-style: outset;
+  border-color: #181f24;
   border-width: 5px;
 }
 
@@ -48,5 +49,5 @@ span {
 }
 
 main p {
-  box-shadow: 5px 5px 20px #854442;
+  box-shadow: 5px 5px 20px #181f24;
 }
