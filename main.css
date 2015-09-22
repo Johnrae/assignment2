@@ -1,0 +1,61 @@
+header {
+  font-family: helvetica;
+  background: lavender;
+  padding: 50px;
+  text-align: center;
+}
+
+main {
+  background: lightblue;
+  padding: 10px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+footer {
+  background: lavender;
+  color: grey;
+  padding: 30px;
+  text-align: center;
+}
+
+span {
+  font-style: italic;
+  text-align: center;
+  border-style: outset;
+  border-width: 5px;
+}
+
+ul {
+  font-family: helvetica;
+}
+
+.photo {
+  width: 50%;
+  margin: auto;
+  border-style: solid;
+  border-color: teal;
+  border-width: 10px;
+}
+
+h1 {
+  color: navy;
+  font-size: 50px;
+}
+
+h3 {
+  border-style: inset;
+}
+
+header img {
+  -webkit-filter: invert(100%);
+}
+
+footer img {
+  -webkit-filter: hue-rotate(90deg);
+}
+
+main p {
+  box-shadow: 5px 5px 20px teal;
+}
