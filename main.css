@@ -6,10 +6,18 @@ header {
   text-align: center;
 }
 
-nav{
+nav {
   float: left;
   font-family: Helvetica;
   font-size: 12;
+}
+
+.info {
+  background-color: #2fd062;
+  display; block;
+  border; 1px solid #181f24;
+  border-radius: 15px;
+  padding: 30px;
 }
 
 main {
@@ -24,7 +32,7 @@ main {
 
 footer {
   background: #536878;
-  color: grey;
+  color: #2fd062;
   padding: 30px;
   text-align: center;
   position: bottom;
@@ -50,4 +58,9 @@ span {
 
 main p {
   box-shadow: 5px 5px 20px #181f24;
+}
+
+h1 {
+  font-style: Helvetica;
+  font-size: 80px;
 }
