@@ -1,12 +1,20 @@
 header {
   font-family: helvetica;
-  font-color: #854442;
+  color: #fff4e6;
   background: #4b3832;
   padding: 10px;
   text-align: center;
 }
 
+nav{
+  float: left;
+  font-family: Helvetica;
+  font-size: 12;
+}
+
 main {
+  position: center;
+  text-align: center;
   background: #fff4e6;
   padding: 10px;
   text-align: center;
@@ -19,6 +27,7 @@ footer {
   color: grey;
   padding: 30px;
   text-align: center;
+  position: bottom;
 }
 
 span {
@@ -28,32 +37,14 @@ span {
   border-width: 5px;
 }
 
-ul {
-  font-family: helvetica;
-}
-
 .photo {
-  width: 50%;
+  width: 100%;
   margin: auto;
-  border-style: solid;
-  border-width: 10px;
-}
-
-h1 {
-  color: #3c2f2f;
-  font-size: 50px;
-}
-
-h3 {
-  border-style: inset;
+  -webkit-filter: hue-rotate(280deg);
 }
 
 .trash {
   -webkit-filter: invert(100%);
-}
-
-footer img {
-  -webkit-filter: hue-rotate(90deg);
 }
 
 main p {
